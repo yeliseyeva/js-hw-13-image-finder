@@ -1,0 +1,35 @@
+.is-hidden {
+}
+
+body {
+  background-color: rgb(217, 192, 228);
+  .conteiner {
+    margin: 50px;
+    .search-form {
+      .input {
+        padding: 12px;
+
+        width: 200px;
+        height: 50px;
+
+        border-radius: 6px;
+        background-color: rgb(209, 202, 211);
+      }
+    }
+    .button {
+      display: block;
+      margin: auto;
+      width: 120px;
+      height: 40px;
+
+      background-color: rgb(202, 70, 255);
+      color: white;
+      border-color: rgb(255, 255, 255);
+      // justify-content: center;
+    }
+
+    .is-hidden {
+      display: none;
+    }
+  }
+}
